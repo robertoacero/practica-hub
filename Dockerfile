@@ -7,7 +7,7 @@ RUN     apt-get update \
         && apt-get clean \
         && rm -rf /var/cache/apt /var/lib/{apt,dpkg}
 
-RUN     apt-get -y install net-tools less
+RUN     apt-get -y install net-tools less nano
 
 EXPOSE 80
 
